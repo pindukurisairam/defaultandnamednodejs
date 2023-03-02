@@ -1,7 +1,4 @@
-const StudentDetails = require("./sample.js");
+const { value, StudentName } = require("./sample.js");
 
-const studentDetails = new StudentDetails("Ram", 15, "kurnool");
-
-console.log(studentDetails);
-
-console.log(studentDetails.name);
+console.log(StudentName);
+console.log(value);
