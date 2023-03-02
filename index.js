@@ -1,4 +1,7 @@
-const { add, sub } = require("./calculator");
+const StudentDetails = require("./sample.js");
 
-console.log(add(6, 3, 9));
-console.log(sub(6, 5, 9));
+const studentDetails = new StudentDetails("Ram", 15, "kurnool");
+
+console.log(studentDetails);
+
+console.log(studentDetails.name);
