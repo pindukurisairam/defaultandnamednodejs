@@ -5,8 +5,6 @@ class StudentDetails {
   }
 }
 
-exports.studentDetails = StudentDetails;
-
 class CarDetails {
   constructor(name, speed) {
     this.name = name;
@@ -14,4 +12,4 @@ class CarDetails {
   }
 }
 
-exports.carDetails = CarDetails;
+export { StudentDetails, CarDetails };
